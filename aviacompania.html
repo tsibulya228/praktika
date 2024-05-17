@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="https://catherineasquithgallery.com/uploads/posts/2021-03/1614583905_18-p-lyagushka-na-belom-fone-30.png"/>
+  <style>
+      body {
+      flex-direction: column;
+      align-items: center;
+      background-color: #fefae0;
+      font-family: FRANKLIN GOTHIC MEDIUM;
+      display: flex;
+      width: 960px;
+      margin: 0 auto;
+    }
+  header {
+    background-color:#d4a373;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 400px;
+    border-radius: 15px;
+  }
+  .logo {
+        width: 50px; 
+        height: auto; 
+    }
+
+  nav a {
+    color: #e9edc9; 
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ccd5ae; 
+}
+
+.text-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.text-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+
+.text-right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+
+.image {
+    flex: 1;
+    max-width: 50%;
+}
+
+
+.color-box {
+    background-color: #d4a373; 
+    color: #fefae0; 
+    padding: 15px;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 10px; 
+}  
+.page-title {
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px
+}
+.slide {
+  flex: 0 0 300px;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 10px;
+  scroll-snap-align: start;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Авиакомпания FlightPool</title>
+</head>
+<body>
+  <main>
+	  <div class="slider-container">
+	    <div class="slider">
+	      <img src="cartinochki/img1.jpg" width="600" height="400" alt="Самолётик">
+	      <img src="cartinochki/img2.jpg" width="600" height="400" alt="Самолётик">
+	      <img src="cartinochki/img3.jpg" width="600" height="400" alt="Самолётик">
+	      <img src="cartinochki/img4.jpg" width="600" height="400" alt="Самолётик">
+	      <img src="cartinochki/img5.jpg" width="600" height="400" alt="Самолётик">
+	    </div>
+	    <button class="prev-button" type="button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+	    <button class="next-button" type="button" aria-label="Посмотреть следующий слайд">&gt;</button>
+	  </div>
+  </main>
+  <script src="rabota_slaydera.js"></script>
+  <header>
+    <h1>Авиакомпания FlightPool
+    </div></h1>
+    <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614583905_18-p-lyagushka-na-belom-fone-30.png" alt="Логотип компании" width="50" height="50" class="logo">
+    <nav>
+      <a href="aviacompania.html">Главная</a>
+      <a href="reysi.html">Рейсы</a>
+      <a href="registratsia.html">Регистрация</a>
+      <a href="lichniy_kabinet.html">Личный кабинет</a>
+      <a href="otzivy.html">Отзывы</a>
+    </nav>
+</header>
+<div class="text-image-container">
+  <div class="text-left">
+      <h2>Добро пожаловать в нашу авиакомпанию!</h2>
+      <div class="color-box">Мы предлагаем широкий выбор рейсов по всему миру. Наша авиакомпания обеспечивает высокий уровень сервиса и комфорта для пассажиров.</div>
+  </div>
+  <img class="image" src="https://media.elitsy.ru/wp-content/uploads/2017/10/9982714.jpg"  width="80" height="150" alt="Самолётик" >
+</div>
+
+<div class="text-image-container">
+  <img class="image" src="https://fikiwiki.com/uploads/posts/2022-02/1644939587_26-fikiwiki-com-p-samoleti-krasivie-kartinki-30.jpg" width="80" height="150" alt="Самолётик" >
+  <div class="text-right">
+      <h2>Скидки!!!</h2>
+      <div class="color-box">Используйте нашу авиакомпанию для ваших путешествий, где каждый четвёртый билет приобретается со скидкой 15%! Насладитесь комфортом полёта, великолепным обслуживанием и экономьте каждый раз, когда летите с нами. Позвольте себе больше приключений, оставляя деньги на другие удовольствия во время вашей поездки!</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="https://catherineasquithgallery.com/uploads/posts/2021-03/1614583905_18-p-lyagushka-na-belom-fone-30.png"/>
+  <style>
+    body {
+      flex-direction: column;
+      align-items: center;
+      background-color: #fefae0;
+      font-family: FRANKLIN GOTHIC MEDIUM;
+      display: flex;
+      width: 960px;
+      margin: 0 auto;
+    }
+  header {
+    background-color:#d4a373;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 400px;
+    border-radius: 15px;
+  }
+  .logo {
+        width: 50px; 
+        height: auto; 
+    }
+
+  nav a {
+    color: #e9edc9; 
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ccd5ae; 
+}
+.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    .box1 {
+        padding: 20px;
+        border: 2px solid #d4a373;
+        background-color: #d4a373;
+    }
+    .box2 {
+        padding: 20px;
+        border: 2px solid #d4a373;
+        text-align: justify;
+        background-color: #e9edc9;
+    }
+  
+    .slider-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px
+}
+.slide {
+  flex: 0 0 300px;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 10px;
+  scroll-snap-align: start;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Личный кабинет</title>
+</head>
+<body>
+  <main>
+	  <div class="slider-container">
+	    <div class="slider">
+	      <img src="cartinochki/img1.jpg" width="600" height="400" alt="Самолётик">
+	      <img src="cartinochki/img2.jpg" width="600" height="400" alt="Самолётик">
+	      <img src="cartinochki/img3.jpg" width="600" height="400" alt="Самолётик">
+	      <img src="cartinochki/img4.jpg" width="600" height="400" alt="Самолётик">
+	      <img src="cartinochki/img5.jpg" width="600" height="400" alt="Самолётик">
+	    </div>
+	    <button class="prev-button" type="button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+	    <button class="next-button" type="button" aria-label="Посмотреть следующий слайд">&gt;</button>
+	  </div>
+  </main>
+  <script src="rabota_slaydera.js"></script>
+  <header>
+    <h1>Авиакомпания FlightPool</h1>
+    <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614583905_18-p-lyagushka-na-belom-fone-30.png" alt="Логотип компании" width="50" height="50" class="logo">
+    <nav>
+        <a href="aviacompania.html">Главная</a>
+        <a href="reysi.html">Рейсы</a>
+        <a href="registratsia.html">Регистрация</a>
+        <a href="lichniy_kabinet.html">Личный кабинет</a>
+        <a href="otzivy.html">Отзывы</a>
+    </nav>
+</header>
+<div class="container">
+  <div class="box1">
+      <h2><center>Личный кабинет</center></h2>
+      <div class="box2">
+        <h3>Данные пользователя:</h3>
+          <p>Фамилия: Седова</p>
+          <p>Имя: Юлия</p>
+          <h3>Бронирование:</h3>
+          <p>Номер рейса: 8457-2484</p>
+          <p>Судно: самолёт</p>
+          <p>Откуда: Москва</p>
+          <p>Куда: Санкт-Петербург</p>
+          <p>Дата рейса: 28.06.2024</p>
+          <p>Количество пассажиров: 1</p>
+      </div>
+  </div>
+</div>
+</body>
+</html>
