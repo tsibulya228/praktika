@@ -135,6 +135,72 @@ input[type="date"] {
 .next-button {
   right: 10px;
 }
+	      .promotion {
+  border: 2px solid #d4a373;
+  padding: 20px; 
+  margin-bottom: 40px; 
+  background-color: #e9edc9;
+}
+
+.promotion h3 {
+  color: #d4a373; 
+  font-size: 20px; 
+  margin-bottom: 10px; 
+}
+
+.promotion p {
+  color: #333; 
+  font-size: 16px; 
+}
+.subscription-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #d4a373;
+    border-radius: 5px;
+    background-color: #fefae0;
+  }
+
+  .subscription-form h2 {
+    color: #d4a373;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .subscription-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .subscription-form input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .subscription-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d4a373;
+    color: #e9edc9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #d4a373;
+        color:#e9edc9;
+        text-align: center;
+        padding: 10 px ;
+        font-style: italic;
+        font-weight: bold;
+    }
   </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -206,5 +272,23 @@ input[type="date"] {
 </form>
 </div>
 </section>
+	<div class="promotion">
+  <h2><center>Акции</center></h2>
+  <h3>1. Программа лояльности для постоянных клиентов: </h3>
+  <p>Создание программы лояльности, где клиенты могут накапливать бонусные баллы за покупку билетов и использовать их для снижения стоимости следующих перелетов. Чем больше клиент летает с авиакомпанией, тем больше бонусов он получает. Такая программа будет стимулировать постоянных клиентов выбирать именно данную авиакомпанию и делать у них больше покупок.</p>
+  <h3>2. Сезонные акции и специальные предложения: </h3>
+  <p>Регулярное проведение сезонных акций и специальных предложений, например, распродажи билетов на определенные направления или скидки на определенные даты. Это позволит привлечь новых клиентов и увеличить спрос на билеты, а также может помочь заполнить свободные места на рейсах с низкой загрузкой. Такие акции могут быть рекламированы через социальные сети, рассылки по электронной почте и другие каналы коммуникации с клиентами.</p>
+</div>
+<div class="subscription-form">
+  <h2>Подпишитесь на закрытые акции</h2>
+  <form action="#" method="post">
+    <label for="email">Введите ваш email:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Подписаться</button>
+  </form>
+</div>
+<footer> 
+  <p> 7-916-668-42-84, Команда разработчиков: Седова Ю.В.</p>
+</footer>
 </body>
 </html>
